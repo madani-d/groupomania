@@ -1,0 +1,9 @@
+.thread {
+    display: block;
+    width: 50%;
+    margin: 150px auto 50px;
+    @media (max-width: 1024px) {
+        width: 100%;
+        margin-top: 30px;
+    }
+}

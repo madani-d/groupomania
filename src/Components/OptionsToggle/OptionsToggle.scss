@@ -1,0 +1,31 @@
+.option-toggle {
+    height: 30px;
+    width: 35px;
+    line-height: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.options-card {
+    z-index: 1;
+    padding: 5px;
+    position: absolute;
+    top : 45px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.option {
+    font-size: 17px;
+    width: 110px;
+    // font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+.profil-header {
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    & h1 {
+        font-size: 35px;
+    }
+    &-avatar {
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        &-img {
+            width: 100%;
+            height: 100%;
+            object-position: center;
+            object-fit: cover;
+        }
+    }
+}
+
+.avatar-button {
+    margin-top: 5px;
+    padding: 0 10px;
+    border-radius: 5px;
+    &-send {
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+    }
+}
+
+.update-avatar-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,57 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dde1e7;
+}
+
+.light {
+    &-container {
+        background: #dde1e7;
+        box-shadow: -3px -3px 7px #ffffff73,
+                    2px 2px 5px rgba(94, 104, 121, 0.288);
+    }
+    &-icon {
+        background: #f1eeee;
+        box-shadow: 8px 8px 15px #a7aaaf,
+                    -3px -3px 15px #ffffff;
+    }
+    &-input {
+        color: #595959;
+        & input {
+
+            color: #595959;
+            background: #dde1e7;
+            box-shadow: inset 2px 2px 5px #babecc,
+                        inset -5px -5px 10px #ffffff73;
+            &:focus {
+                box-shadow: 2px 2px 5px #babecc,
+                            -1px -1px 2px #ffffff73;
+            }
+        }
+        &-icon {
+            color: #595959;
+        }
+    }
+    &-button {
+        outline: none;
+        cursor: pointer;
+        background: #dde1e7;
+        box-shadow: 2px 2px 5px #babecc,
+                    -5px -5px 10px #ffffff73;
+        transition: 0.1s ease-in-out;
+        &:active {
+            box-shadow: 2px 2px 5px #ffffff73,
+                        -5px -5px 10px #babecc;
+        transition: 0.1s ease-in-out;
+        }
+    }
+    &-card-header {
+    box-shadow: -3px -3px 7px #ffffff73;
+    }
+}

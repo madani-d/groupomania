@@ -1,0 +1,39 @@
+.comment-form {
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    &-input {
+        height: 50px;
+        width: 100%;
+        padding-left: 10px;
+        font-size: 18px;
+        outline: none;
+        border: none;
+        color: #595959;
+        background: #dde1e7;
+        border-radius: 10px;
+        box-shadow: inset 2px 2px 5px #babecc,
+        inset -5px -5px 10px #ffffff73;
+    }
+
+    &-button {
+        position: absolute;
+        top: 6px;
+        right: 7px;
+        color: #595959;
+        border: none;
+        outline: none;
+        background: #dde1e7;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #babecc,
+                    -5px -5px 10px #ffffff73;
+        &:focus {
+            box-shadow: 2px 2px 5px #babecc,
+                        -5px -5px 10px #ffffff73;
+        }
+    }
+}

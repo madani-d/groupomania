@@ -1,0 +1,67 @@
+.form-article {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    min-height: 120px;
+    border-radius: 0 10px 10px 10px;
+    background: #dde1e7;
+    box-shadow:
+    -3px -3px 7px #ffffff73,
+    2px 2px 5px rgba(94, 104, 121, 0.288);
+    padding: 10px;
+    &-input {
+        margin-bottom: 50px;
+        resize: none;
+        height: 50px;
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 18px;
+        outline: none;
+        border: none;
+        color: #595959;
+        background: #dde1e7;
+        border-radius: 10px;
+        box-shadow: inset 2px 2px 5px #babecc,
+        inset -5px -5px 10px #ffffff73;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    &-button {
+        position: absolute;
+        width: 50px;
+        color: #595959;
+        border: none;
+        outline: none;
+        background: #dde1e7;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #babecc,
+                    -5px -5px 10px #ffffff73;
+        &:focus {
+            box-shadow: 2px 2px 5px #babecc,
+                        -5px -5px 10px #ffffff73;
+        }
+    }
+    &-send {
+        bottom: 10px;
+        right: 10px;
+    }
+    &-file {
+        bottom: 10px;
+        left: 10px;
+    }
+}
+
+.image {
+    display: none;
+}
+
+.preview {
+    width: 100%;
+    margin: 20px 0 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
