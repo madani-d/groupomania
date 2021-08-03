@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/groupomania/static/css/main.ed016e19.chunk.css",
-    "main.js": "/groupomania/static/js/main.3154348c.chunk.js",
-    "main.js.map": "/groupomania/static/js/main.3154348c.chunk.js.map",
-    "runtime-main.js": "/groupomania/static/js/runtime-main.71a11382.js",
-    "runtime-main.js.map": "/groupomania/static/js/runtime-main.71a11382.js.map",
-    "static/js/2.c8a01b4c.chunk.js": "/groupomania/static/js/2.c8a01b4c.chunk.js",
-    "static/js/2.c8a01b4c.chunk.js.map": "/groupomania/static/js/2.c8a01b4c.chunk.js.map",
-    "index.html": "/groupomania/index.html",
-    "static/css/main.ed016e19.chunk.css.map": "/groupomania/static/css/main.ed016e19.chunk.css.map",
-    "static/js/2.c8a01b4c.chunk.js.LICENSE.txt": "/groupomania/static/js/2.c8a01b4c.chunk.js.LICENSE.txt",
-    "static/media/icon-left-font-monochrome-black.91535550.svg": "/groupomania/static/media/icon-left-font-monochrome-black.91535550.svg",
-    "static/media/icon-left-font-monochrome-white.99f769c7.svg": "/groupomania/static/media/icon-left-font-monochrome-white.99f769c7.svg",
-    "static/media/icon.c2dc8e58.svg": "/groupomania/static/media/icon.c2dc8e58.svg",
-    "static/media/without-icon.30e27897.svg": "/groupomania/static/media/without-icon.30e27897.svg"
+    "main.css": "./static/css/main.ed016e19.chunk.css",
+    "main.js": "./static/js/main.3154348c.chunk.js",
+    "main.js.map": "./static/js/main.3154348c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.44a79f61.js",
+    "runtime-main.js.map": "./static/js/runtime-main.44a79f61.js.map",
+    "static/js/2.eac365d3.chunk.js": "./static/js/2.eac365d3.chunk.js",
+    "static/js/2.eac365d3.chunk.js.map": "./static/js/2.eac365d3.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.ed016e19.chunk.css.map": "./static/css/main.ed016e19.chunk.css.map",
+    "static/js/2.eac365d3.chunk.js.LICENSE.txt": "./static/js/2.eac365d3.chunk.js.LICENSE.txt",
+    "static/media/icon-left-font-monochrome-black.91535550.svg": "./static/media/icon-left-font-monochrome-black.91535550.svg",
+    "static/media/icon-left-font-monochrome-white.99f769c7.svg": "./static/media/icon-left-font-monochrome-white.99f769c7.svg",
+    "static/media/icon.c2dc8e58.svg": "./static/media/icon.c2dc8e58.svg",
+    "static/media/without-icon.30e27897.svg": "./static/media/without-icon.30e27897.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.71a11382.js",
-    "static/js/2.c8a01b4c.chunk.js",
+    "static/js/runtime-main.44a79f61.js",
+    "static/js/2.eac365d3.chunk.js",
     "static/css/main.ed016e19.chunk.css",
     "static/js/main.3154348c.chunk.js"
   ]
